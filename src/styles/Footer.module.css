@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+
+footer{
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(86.32deg, #71004B 62.25%, #041034 117.2%);
+  color: white;
+li{
+    font-family:" mona";
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+input{
+    width: 17rem;
+    padding: .7rem 0rem;
+    border: 2px solid white;
+    border-radius: 0.75rem;
+    background: transparent;
+    font-family:  Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+button{
+    margin-left: .5rem;
+    border: none;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.938rem;
+    font-size: 1.25rem;
+    font-family:  Helvetica, sans-serif;
+    color: #000000;
+    padding: .9rem 1.9rem;
+    font-weight: 700;
+    
+
+
+}
+  h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 1.4rem;
+}
+
+address{
+
+    font-family:" mona";
+    font-weight: 500;
+}
+
+}
+
+
+
+.footerwrep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 3rem;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    width: 16.175rem;
+    line-height: 1.5rem;
+    row-gap: 3rem;
+
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    width: 8.813rem;
+    line-height: 1.5rem;
+    row-gap: 5rem;
+    }
+    
+    .footer3{
+      
+        width: 28.375rem;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        li{
+            font-weight: 500;
+            img{
+                padding-left: .5rem;
+            }
+        }
+        }
+        
+
+
+
+

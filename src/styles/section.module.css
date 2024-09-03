@@ -624,7 +624,22 @@
             border-radius: 0.75rem;
             box-shadow: 10px 33px 14px rgba(67, 32, 91, 0.02), 6px 19px 12px rgba(67, 32, 91, 0.05), 2px 8px 9px rgba(67, 32, 91, 0.09), 1px 2px 5px rgba(67, 32, 91, 0.1);
             padding-bottom: 3rem;
-
+        
+            &:hover {
+               
+                background-image: linear-gradient(153.73deg, #87005A 0%, #323232 83.47%);
+            
+        
+                .WhyText1 {
+                    color: #F3F3F3;
+                }
+            
+                .WhyText2 {
+                    color: #F3F3F3;
+                }
+            
+            }
+            
             .WhyImg {
                 padding-top: 3rem;
                 width: 26%;
@@ -678,20 +693,7 @@
     }
 }
 
-.WhyCard:hover {
 
-    background: linear-gradient(153.73deg, #87005A 0%, #323232 83.47%);
-
-
-    .WhyText1 {
-        color: #F3F3F3;
-    }
-
-    .WhyText2 {
-        color: #F3F3F3;
-    }
-
-}
 
 
 .WhyMan {
@@ -709,26 +711,59 @@
 
 .MainBlog {
     width: 100%;
-
+    height: 100vh;
+    .secCont{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 
 }
 
+
 .BlogWrap {
-    padding-top: 12rem;
+ 
     width: 100%;
     display: flex;
-    padding-left: 10rem;
+    justify-content: center;
+    align-items: end;
+
+    div{
+        height: fit-content;
+    }
+    div:nth-child(1){
+        position: relative;
+        top: 0;
+        left: 5%;
+    }
+    div:nth-child(2){
+        position: relative;
+    z-index: 1;
+    }
+
+    div:nth-child(3){
+        position: relative;
+        top: 0;
+        left: -5%;
+ 
+    }
+
 
 }
 
 .BlogText {
     width: 80%;
     text-align: center;
-    padding-left: 9rem;
-    padding-top: 6rem;
+    padding-top: 2rem;
+ 
+
 
     h2 {
-        font-family: mona;
+        font-family: mona_mid_narrow;
         font-weight: 500;
         font-size: 3rem;
     }
@@ -737,7 +772,7 @@
 .BlogBtn {
 text-align: center;
 padding-top: 5rem;
-padding-bottom: 10rem;
+
     button {
         border-radius: 0.5rem;
         background: linear-gradient(93.31deg, #2C05A3 0%, #10023D 135.67%);

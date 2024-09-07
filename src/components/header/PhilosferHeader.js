@@ -5,7 +5,7 @@ import styles from '../../styles/header.module.css';
 import lion from '../../media/pngwing.com (13) 2.png';
 
 
-function Header() {
+export default function PhilosferHeader() {
     return (
         <header className={styles.PhilosferMain}>
             <div className={styles.row}>
@@ -31,4 +31,3 @@ function Header() {
     )
 }
 
-export default Header;

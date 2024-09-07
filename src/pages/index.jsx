@@ -1,14 +1,8 @@
-import Footer from "../components/Footer";
-import PhilosferHeader from "../components/header/PhilosferHeader.js";
+
 import Navbar from "../components/navbar";
+import Header from "../components/header/header.js";
 import Section from "../components/section";
-import DesignHeader from '../components/header/DesignHeader.js';
-import DevlopmentsCurses from "../components/header/DevlopemetsCurses.js";
-
-
-
-
-
+import Footer from "../components/Footer";
 
 function Index(){
 
@@ -22,11 +16,11 @@ return(
     <>
 
     <main style={main}>
+
     <Navbar/>
-    <DevlopmentsCurses/>
+    <Header/>
     <Section/>
     <Footer/>
-    
 
     </main>
     </>

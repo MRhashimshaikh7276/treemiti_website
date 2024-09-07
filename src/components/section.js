@@ -30,29 +30,12 @@ let section = {
     width:"100%",
     backgroundColor: " #FFFFFF",
 }
-let absulote = {
-    
 
-    width: "90%",
-    padding: "1.3rem 0rem",
-    boxShadow: "0px 3px 7px 0px #3c012850",
-   backgroundColor:"#E3E3E3",
-   position:"absolute",
-   top: "46.1rem",
-   marginLeft: "6rem",
-}
 
     return (
         <section style={section}>
 
-            <div style={absulote}>
-                <ul className={Styles.row}>
-                    <li onClick={Philosfer}>Our Philosophy</li>
-                    <li onClick={Design}>Design Courses</li>
-                    <li onClick={Devlopment}>Devlopment Courses</li>
-                    <li onClick={Devlopment}>Bussiness Courses</li>
-                </ul>
-            </div>
+        
 
             <div className={Styles.weProvide}>
                 <div className={Styles.weLeft}>

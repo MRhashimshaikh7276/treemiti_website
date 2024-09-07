@@ -188,3 +188,20 @@ justify-content: center;
     background-image: url("../media//Component\ 14.png");
     background-repeat: no-repeat;
 }
+
+
+
+.row{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    li {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.75rem;
+        font-family: "Lato", sans-serif;
+        cursor: pointer;
+    }
+}

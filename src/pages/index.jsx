@@ -22,7 +22,6 @@ return(
     <>
 
     <main style={main}>
-    <Navbar/>
     <DevlopmentsCurses/>
     <Section/>
     <Footer/>

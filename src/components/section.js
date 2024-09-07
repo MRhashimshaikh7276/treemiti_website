@@ -15,11 +15,20 @@ import Placements from './section/placements.';
 import WhyUs from './section/WhyUs';
 import Blog from './section/blog';
 
+
+import  Philosfer from '../components/header/PhilosferHeader';
+import  Design from '../components/header/DesignHeader';
+import  Devlopment from '../components/header/DevlopemetsCurses';
+
+
+
+
+
 function Section() {
 
 let section = {
     width:"100%",
-    backgroundColor: " #F3F3F3",
+    backgroundColor: " #FFFFFF",
 }
 let absulote = {
     
@@ -38,10 +47,10 @@ let absulote = {
 
             <div style={absulote}>
                 <ul className={Styles.row}>
-                    <li>Our Philosophy</li>
-                    <li>Design Courses</li>
-                    <li>Devlopment Courses</li>
-                    <li>Bussiness Courses</li>
+                    <li onClick={Philosfer}>Our Philosophy</li>
+                    <li onClick={Design}>Design Courses</li>
+                    <li onClick={Devlopment}>Devlopment Courses</li>
+                    <li onClick={Devlopment}>Bussiness Courses</li>
                 </ul>
             </div>
 

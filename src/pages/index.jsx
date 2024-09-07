@@ -1,7 +1,9 @@
 import Footer from "../components/Footer";
-import Header from "../components/header";
+import PhilosferHeader from "../components/header/PhilosferHeader.js";
 import Navbar from "../components/navbar";
 import Section from "../components/section";
+import DesignHeader from '../components/header/DesignHeader.js';
+import DevlopmentsCurses from "../components/header/DevlopemetsCurses.js";
 
 
 
@@ -15,12 +17,13 @@ function Index(){
         position:"absolute",
         overflowX: "hidden",
     }
+
 return(
     <>
 
     <main style={main}>
     <Navbar/>
-    <Header/>
+    <DevlopmentsCurses/>
     <Section/>
     <Footer/>
     

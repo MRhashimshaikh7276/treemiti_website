@@ -1,13 +1,13 @@
 
-import styles from '../styles/header.module.css';
+import styles from '../../styles/header.module.css';
 
 
-import lion from '../media/pngwing.com (13) 2.png';
+import lion from '../../media/pngwing.com (13) 2.png';
 
 
 function Header() {
     return (
-        <header className={styles.header}>
+        <header className={styles.PhilosferMain}>
             <div className={styles.row}>
                 <div className={styles.left}>
                     <div className={styles.lion}>
@@ -26,8 +26,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-
-
 
         </header>
     )

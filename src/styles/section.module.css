@@ -7,7 +7,6 @@
     width: 90%;
     padding: 1rem 0rem;
     padding-bottom: 2rem;
-
     box-shadow: 0px 3px 7px 0px #3c012850;
     background-color: #E3E3E3;
     position: absolute;
@@ -15,7 +14,7 @@
     margin-left: 6rem;
 }
 
-.row {
+.row{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -275,7 +274,7 @@
 
 
 .row {
-    padding-top: 1rem;
+    padding: .5rem;
     padding-left: 2rem;
     display: flex;
     flex-direction: row;

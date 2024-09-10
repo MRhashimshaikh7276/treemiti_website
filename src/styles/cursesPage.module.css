@@ -123,6 +123,9 @@ box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 
         .left{
             width: 20%;
             border-radius: 0.938rem;
+            div{
+              padding: 1.5rem 1.2rem;
+            }
             img{
                 border-radius: 0.938rem;
             }
@@ -139,6 +142,9 @@ box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 
                 div{
                     background-color: #FFFFFF;
                     padding: 0.5rem 0.5rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 0.967rem;
 
                 }
             }
@@ -170,17 +176,41 @@ box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 
 
 
 .btnRow{
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  button{
+  .btn1{
     padding: .5rem 1rem;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-family: mona;
-    font-weight: 600;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    background-color:  #21257C;
+    color: #ffff;
+
+
   }
+  .btn2{
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1.25rem;
+    font-family: mona;
+    font-weight: 500;
+    border-radius: 0.5rem;
+
+  }
+}
+
+.allWrap{
+  padding-top: 2rem;
+margin-left: 3rem;
+  width: 90%;
+ display: flex;
+ gap: 1.1rem;
+ flex-direction: column;
+
 }

@@ -16,13 +16,9 @@ return(
     <>
 
     <main style={main}>
-<<<<<<< HEAD
-    <DevlopmentsCurses/>
-=======
-
-    <Navbar/>
+    
+  
     <Header/>
->>>>>>> 609709e18b0e1b1b82aaaee19f793a53e710edab
     <Section/>
     <Footer/>
 

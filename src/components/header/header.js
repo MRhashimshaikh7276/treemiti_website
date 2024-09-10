@@ -14,7 +14,7 @@ export default function Header() {
     boxShadow: "0px 3px 7px 0px #3c012850",
     backgroundColor: "#E3E3E3",
     position: "absolute",
-    top: "46.1rem",
+    top: "41.1rem",
     marginLeft: "6rem",
   };
 

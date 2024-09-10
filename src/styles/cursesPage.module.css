@@ -1,0 +1,186 @@
+.MainCurses {
+  width: 100%;
+  height: 44.5vh;
+  background-image: url(".././media//Untitlel\ 0\ 1.png");
+}
+
+.cursesWrap {
+  width: 90%;
+  margin: auto;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  padding-top: 6rem;
+
+  .left {
+    width: 20%;
+
+    .divWrap {
+      width: 90%;
+
+      padding-left: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding-top: 2rem;
+
+      .CursesText1 {
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.209rem;
+        font-family: mona;
+      }
+    }
+  }
+
+  .right {
+    width: 80%;
+  }
+}
+
+.CursesText {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.209rem;
+  font-family: mona;
+}
+
+.abc {
+  width: 83.7%;
+  background-color: #d2e0fb;
+  height: 659px;
+  border-radius: 0.938rem;
+}
+
+/* Right Wrapper */
+
+.rightWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowWrap {
+  display: flex;
+  flex-direction: row;
+
+  .left {
+    width: 50%;
+    background: #21257c;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 37, 124, 0.03), -7px -10px 12px rgba(33, 37, 124, 0.04), -2px -2px 7px rgba(33, 37, 124, 0.05);
+
+
+
+    h3 {
+      font-family: mona;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 1.451rem;
+      color: #ffffff;
+    }
+  }
+
+  .right {
+    width: 50%;
+    background: #f3f3f3;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+
+box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 37, 124, 0.03), -7px -10px 12px rgba(33, 37, 124, 0.04), -2px -2px 7px rgba(33, 37, 124, 0.05);
+
+
+
+
+
+
+    h3 {
+      font-family: mona;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 1.451rem;
+      color: #b1b1b1;
+    }
+  }
+}
+
+
+
+.SyllebusMain{
+    padding-top: 2rem;
+    width: 100%;
+ 
+
+    .Wrap{
+        width: 100%;
+        background-color: #D2E0FB;
+        display: flex;
+        flex-direction: row;
+        border-radius: 0.938rem;
+        .left{
+            width: 20%;
+            border-radius: 0.938rem;
+            img{
+                border-radius: 0.938rem;
+            }
+         
+        }
+
+        .right{
+            width: 80%;
+            border-radius: 0.938rem;
+            .row{
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                div{
+                    background-color: #FFFFFF;
+                    padding: 0.5rem 0.5rem;
+
+                }
+            }
+        }
+
+    }
+}
+
+.text1{
+    h3{
+        font-family: mona;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.451rem;
+        color:#000000;
+        
+    }
+}
+
+.text2{
+    p{
+        text-wrap: wrap;
+        font-family: mona;
+        font-weight: 400;
+        font-size: 1.5rem;
+        
+    }
+}
+
+
+.btnRow{
+  padding: 5rem 0rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  button{
+    padding: .5rem 1rem;
+    border: none;
+    font-size: 1.2rem;
+    font-family: mona;
+    font-weight: 600;
+  }
+}

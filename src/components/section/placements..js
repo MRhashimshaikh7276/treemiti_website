@@ -1,12 +1,23 @@
 
 import Styles from '../../styles/section.module.css';
-
-import Aniket from '../../media/aniket-patil 1.png';
+import { useState } from 'react';
+import { Designersplacement,DigitalMarketingplacement,WebDeveloperplacement,DataScientistplacement } from '../../data/placementData';
 
 function Placements() {
 
-
-
+    const [activedata, setActivedata] = useState(() => Designersplacement);
+    
+    const headerComponents = {
+        Designers: Designersplacement,
+        DigitalMarketing: DigitalMarketingplacement,
+        WebDeveloper: WebDeveloperplacement,
+        DataScientist:DataScientistplacement
+      };
+    
+    const handleClick = (componentKey) => {
+        setActivedata(() => headerComponents[componentKey]);
+      };
+    
     return (
         <>
 
@@ -33,95 +44,27 @@ function Placements() {
                     <div className={Styles.placeright}>
                         <div className={Styles.bar}>
                             <ul >
-                                <li>#Designers</li>
-                                <li>#Digital Marketing</li>
-                                <li>#Web Developer</li>
-                                <li>#Data Scientist</li>
+                                <li onClick={() => handleClick("Designers")}>#Designers</li>
+                                <li onClick={() => handleClick("DigitalMarketing")}>#Digital Marketing</li>
+                                <li onClick={() => handleClick("WebDeveloper")}>#Web Developer</li>
+                                <li onClick={() => handleClick("DataScientist")}>#Data Scientist</li>
                             </ul>
                         </div>
 
                         <div className={Styles.placeRepet}>
+                        
+                        {activedata.map((deta,index)=>(
                             <div className={Styles.placeCard}>
                                 <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
+                                    <img src={deta.stduentimg} />
                                 </div>
                                 <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
+                                    <span className={Styles.text1}>{deta.course}</span>
+                                    <span className={Styles.text2}>{deta.name}</span>
                                 </div>
                             
                             </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            <div className={Styles.placeCard}>
-                                <div className={Styles.placeImg}>
-                                    <img src={Aniket} />
-                                </div>
-                                <div className={Styles.placeCardText}>
-                                    <span className={Styles.text1}>graphics designer</span>
-                                    <span className={Styles.text2}>Aniket patil</span>
-                                </div>
-                            
-                            </div>
-                            
+                        ))}
                             
                         </div>
                         

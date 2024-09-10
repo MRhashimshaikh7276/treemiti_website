@@ -63,25 +63,25 @@ function Feedback() {
                             <div className={Styles.ReviewsRight}>
                                 <div className={Styles.StudentCard}>
                                     <div className={Styles.card2}>
-                                     
-                                            <img src={contact} />
-                                      
+
+                                        <img src={contact} />
+
                                         <span >Lokesh Mahajan</span>
                                     </div>
                                     <div className={Styles.px2}>
-                                        <img src={star}/>
-                                        <img src={star}/>
-                                        <img src={star}/>
-                                        <img src={star}/>
-                                        <img src={star}/>
-                                        
+                                        <img src={star} />
+                                        <img src={star} />
+                                        <img src={star} />
+                                        <img src={star} />
+                                        <img src={star} />
 
-                                        </div>
-                                        <div className={Styles.Feedtext5}>
-                                            <p>
-                                            I am very clear as to why Treemiti <br/> Informatics is the best graphic <br/> designing, web designing, ui/ux <br/> designing institute in Nashik because <br/> they have the best trainers and the <br/> most up-to-date course material. I am <br/> now confident, competent and skillfulv <br/> graphic designer, web designer, ui/ux
-                                            </p>
-                                        </div>
+
+                                    </div>
+                                    <div className={Styles.Feedtext5}>
+                                        <p>
+                                            I am very clear as to why Treemiti <br /> Informatics is the best graphic <br /> designing, web designing, ui/ux <br /> designing institute in Nashik because <br /> they have the best trainers and the <br /> most up-to-date course material. I am <br /> now confident, competent and skillfulv <br /> graphic designer, web designer, ui/ux
+                                        </p>
+                                    </div>
                                 </div>
 
                             </div>

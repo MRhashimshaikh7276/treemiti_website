@@ -11,37 +11,49 @@ export default function BusinessCourses() {
           <div className={Styles.BussinessLeft}>
             <div className={Styles.cardBussiness}>
               <div className={Styles.Card}>
-                <div>
-                  <img src={digitalMarketing} />
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                
+                    <img src={digitalMarketing} />
+                  </div>
                 </div>
-                <div>
+                <div className={Styles.cardcont}>
                   <h3>Digital Marketing</h3>
                 </div>
               </div>
               <div className={Styles.Card}>
-                <div>
-                  <img src={digitalMarketing} />
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                
+                    <img src={digitalMarketing} />
+                  </div>
                 </div>
-                <div>
-                  <h3>Data Analytics</h3>
+                <div className={Styles.cardcont}>
+                  <h3>Digital Marketing</h3>
                 </div>
               </div>
             </div>
             <div className={Styles.cardBussiness2}>
-              <div className={Styles.Card}>
-                <div>
-                  <img src={digitalMarketing} />
+            <div className={Styles.Card}>
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                
+                    <img src={digitalMarketing} />
+                  </div>
                 </div>
-                <div>
+                <div className={Styles.cardcont}>
                   <h3>Digital Marketing</h3>
                 </div>
               </div>
               <div className={Styles.Card}>
-                <div>
-                  <img src={digitalMarketing} />
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                
+                    <img src={digitalMarketing} />
+                  </div>
                 </div>
-                <div>
-                  <h3>Data Analytics</h3>
+                <div className={Styles.cardcont}>
+                  <h3>Digital Marketing</h3>
                 </div>
               </div>
             </div>
@@ -49,7 +61,7 @@ export default function BusinessCourses() {
 
           <div className={Styles.BussinessRight}>
             <div className={Styles.bussinessImgWrap}>
-              <img src={pngWing} />
+              <div className="imgFit"><img src={pngWing} /></div>
             </div>
           </div>
         </div>

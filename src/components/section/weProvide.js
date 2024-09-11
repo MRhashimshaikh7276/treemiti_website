@@ -10,7 +10,7 @@ function WeProvide({img ,text}) {
         <>
             <div className={Styles.repetCard}>
                 <div className={Styles.card}>
-                    <img src={img} alt='dsjss' />
+                   <div className='imgFit'> <img src={img}  alt='dsjss' /></div>
                 </div>
                 <div className={Styles.weBtn}><h2>{text}</h2></div>
             </div>

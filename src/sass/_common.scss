@@ -17,3 +17,18 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
+
+img{
+    width: 100%;
+    height: auto;
+   }
+
+
+   .imgFit{
+    width: fit-content;
+    display: inline-block;
+    
+
+  }
+
+ 

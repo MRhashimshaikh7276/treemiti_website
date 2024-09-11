@@ -2,12 +2,18 @@ import Styles from "../../styles/cursesPage.module.css";
 import quastionIcon from "../../media/quaction.png";
 import ArrowMap from "../../media/streamline_arrow-roadmap.png";
 import bulp from "../../media/bulp.png";
-import CursesSyllebus from '../cursespage/cursesSyllebus';
+import CursesSyllebus from "../cursespage/cursesSyllebus";
+import AboutDesignCourses from "../cursespage/aboutDesign";
+
+
 
 function CursesSection() {
   return (
     <>
-      <section className={Styles.cursesWrap}>
+      <section className={Styles.curseswidth}>
+        <div className={Styles.cursesWrap}>
+
+        <div className="row">
         <div className={Styles.left}>
           <div className={Styles.abc}>
             <aside className={Styles.divWrap}>
@@ -16,15 +22,15 @@ function CursesSection() {
               <div className={Styles.CursesText}>Business</div>
               <div className={Styles.CursesText}>Design</div>
               <div className={Styles.CursesText}>
-                <img src={quastionIcon} />
+                <div className="imgFit" style={{paddingRight:".6rem"}}><img src={quastionIcon} /></div>
                 <span>About Designing</span>
               </div>
               <div className={Styles.CursesText}>
-                <img src={ArrowMap} />
+               <div className="imgFit" style={{paddingRight:".6rem"}}> <img src={ArrowMap} /></div>
                 <span>Road Map</span>
               </div>
               <div className={Styles.CursesText}>
-                <img src={bulp} />
+              <div className="imgFit" style={{paddingRight:".6rem"}}>  <img src={bulp} /></div>
                 <span>Certification</span>
               </div>
             </aside>
@@ -42,9 +48,15 @@ function CursesSection() {
               </div>
             </div>
           </div>
-          <CursesSyllebus/>
+          <CursesSyllebus />
+       
         </div>
+        </div>
+        </div>
+        <AboutDesignCourses />
+      
       </section>
+     
     </>
   );
 }

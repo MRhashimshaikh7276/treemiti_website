@@ -74,11 +74,16 @@ export default function Footer() {
                             <button>Sign up</button>
                         </li>
 
-                        <li >
-                            <img src={instagram} alt='instagram' />
-                            <img src={facebook} alt='facebook' />
-                            <img src={x} alt='x' />
-                            <img src={youtube} alt='youtubex' />
+                        <li>
+                            <ul className='imgFit row'>
+                           <li className='imgFit'> <img src={instagram} alt='instagram' /></li>
+                           <li className='imgFit'> <img src={facebook} alt='facebook' /></li>
+                           <li className='imgFit'> <img src={x} alt='x' /></li>
+                           <li className='imgFit'> <img src={youtube} alt='youtubex' /></li>
+                            
+                           
+                           
+                            </ul>
                         </li>
                     </ul>
                 </div>

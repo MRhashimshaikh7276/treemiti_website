@@ -9,51 +9,68 @@ function DesignHeader() {
         <div className={Styles.row}>
           <div className={Styles.LeftDesign}>
             <div className={Styles.CardWrap}>
+            <div className={Styles.CardWrap2}>
               <div className={Styles.Card}>
-                <div>
-                  <img src={Computer} alt="dd" />
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                    <img src={Computer} alt="dd" />
+                  </div>
                 </div>
-                <div>
+                <div className={Styles.cardcont}>
                   <h3>Digital Graphics</h3>
                 </div>
               </div>
               <div className={Styles.Card}>
-                <div>
-                  <img src={Computer} alt="dd" />
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                    <img src={Computer} alt="dd" />
+                  </div>
                 </div>
-                <div>
-                  <h3>Digital Graphics</h3>
-                </div>
-              </div>
-              <div className={Styles.Card}>
-                <div>
-                  <img src={Computer} alt="dd" />
-                </div>
-                <div>
-                  <h3>Digital Graphics</h3>
-                </div>
-              </div>
-              <div className={Styles.Card}>
-                <div>
-                  <img src={Computer} alt="dd" />
-                </div>
-                <div>
-                  <h3>Digital Graphics</h3>
-                </div>
-              </div>
-              <div className={Styles.Card}>
-                <div>
-                  <img src={Computer} alt="dd" />
-                </div>
-                <div>
+                <div className={Styles.cardcont}>
                   <h3>Digital Graphics</h3>
                 </div>
               </div>
             </div>
+            <div className={Styles.CardWrap2}>
+            <div className={Styles.Card}>
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                    <img src={Computer} alt="dd" />
+                  </div>
+                </div>
+                <div className={Styles.cardcont}>
+                  <h3>Digital Graphics</h3>
+                </div>
+              </div>
+              <div className={Styles.Card}>
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                    <img src={Computer} alt="dd" />
+                  </div>
+                </div>
+                <div className={Styles.cardcont}>
+                  <h3>Digital Graphics</h3>
+                </div>
+              </div>
+              <div className={Styles.Card}>
+                <div className={Styles.cardcont}>
+                  <div className="imgFit">
+                    <img src={Computer} alt="dd" />
+                  </div>
+                </div>
+                <div className={Styles.cardcont}>
+                  <h3>Digital Graphics</h3>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
           <div className={Styles.RightDesign}>
             <div className={Styles.BlogImgWrap}>
-              <img src={storeProduct} alt="djdb" />
+              <div className="imgFit">
+               
+                <img src={storeProduct} alt="djdb" />
+              </div>
             </div>
           </div>
         </div>

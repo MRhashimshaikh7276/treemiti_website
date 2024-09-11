@@ -93,7 +93,15 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        li{
+            ul{
+                display: flex;
+                flex-direction: row;
+                gap: .75rem;
+            }
+        }
     }
+
 
     li {
         font-weight: 500;

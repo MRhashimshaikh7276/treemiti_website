@@ -1,6 +1,11 @@
 import Styles from "../../styles/header.module.css";
 import storeProduct from "../../media/pngwing.com (7).png";
-import Computer from "../../media/Digital Graphics 1.png";
+
+import FontDev from '../../media/FontDev.png';
+import BAckEndDev from '../../media/BackEnd Dev.png';
+import fullStackDev from '../../media/FullStackDev.png'
+import  meanStack from '../../media/meanStack.png';
+import MarnStackdDev from '../../media/MernStack.png'
 
 function DevlopmentsCurses() {
   return (
@@ -13,24 +18,24 @@ function DevlopmentsCurses() {
                 <div className={Styles.Card}>
                   <div className={Styles.cardcont}>
                     <div className="imgFit">
-                      {" "}
-                      <img src={Computer} alt="dd" />
+                     
+                      <img src={FontDev} alt="dd" />
                     </div>
                   </div>
                   <div className={Styles.cardcont}>
-                    <h3>Digital Graphics</h3>
+                    <h3>Front End Development</h3>
                   </div>
                 </div>
 
                 <div className={Styles.Card}>
                   <div className={Styles.cardcont}>
                     <div className="imgFit">
-                      {" "}
-                      <img src={Computer} alt="dd" />
+                     
+                      <img src={BAckEndDev} alt="dd" />
                     </div>
                   </div>
                   <div className={Styles.cardcont}>
-                    <h3>Digital Graphics</h3>
+                    <h3>Back End Development</h3>
                   </div>
                 </div>
               </div>
@@ -38,34 +43,34 @@ function DevlopmentsCurses() {
                 <div className={Styles.Card}>
                   <div className={Styles.cardcont}>
                     <div className="imgFit">
-                      {" "}
-                      <img src={Computer} alt="dd" />
+                    
+                      <img src={fullStackDev} alt="dd" />
                     </div>
                   </div>
                   <div className={Styles.cardcont}>
-                    <h3>Digital Graphics</h3>
+                    <h3>Full Stack Development</h3>
                   </div>
                 </div>
                 <div className={Styles.Card}>
                   <div className={Styles.cardcont}>
                     <div className="imgFit">
-                      {" "}
-                      <img src={Computer} alt="dd" />
+                   
+                      <img src={meanStack} alt="dd" />
                     </div>
                   </div>
                   <div className={Styles.cardcont}>
-                    <h3>Digital Graphics</h3>
+                    <h3>Mean Stack Development</h3>
                   </div>
                 </div>
                 <div className={Styles.Card}>
                   <div className={Styles.cardcont}>
                     <div className="imgFit">
-                      {" "}
-                      <img src={Computer} alt="dd" />
+                     
+                      <img src={MarnStackdDev} alt="dd" />
                     </div>
                   </div>
                   <div className={Styles.cardcont}>
-                    <h3>Digital Graphics</h3>
+                    <h3>Mern Stack Development</h3>
                   </div>
                 </div>
               </div>

@@ -3,6 +3,10 @@ import Styles from "../../styles/header.module.css";
 import pngWing from "../../media/pngwing.com (18).png";
 import digitalMarketing from "../../media/Digital Marketing.png";
 
+import DataAnalist from '../../media/DataAnalist.png';
+import DigitalMarketing from '../../media/DIgitalMarketing.png'
+
+
 export default function BusinessCourses() {
   return (
     <>
@@ -25,11 +29,11 @@ export default function BusinessCourses() {
                 <div className={Styles.cardcont}>
                   <div className="imgFit">
                 
-                    <img src={digitalMarketing} />
+                    <img src={DataAnalist} />
                   </div>
                 </div>
                 <div className={Styles.cardcont}>
-                  <h3>Digital Marketing</h3>
+                  <h3>Data Analytics</h3>
                 </div>
               </div>
             </div>
@@ -38,11 +42,11 @@ export default function BusinessCourses() {
                 <div className={Styles.cardcont}>
                   <div className="imgFit">
                 
-                    <img src={digitalMarketing} />
+                    <img src={DigitalMarketing} />
                   </div>
                 </div>
                 <div className={Styles.cardcont}>
-                  <h3>Digital Marketing</h3>
+                  <h3>DigitalMarketing</h3>
                 </div>
               </div>
               <div className={Styles.Card}>

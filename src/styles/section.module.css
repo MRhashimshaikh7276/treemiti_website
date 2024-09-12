@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .row {
-  list-style: none;
+ 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -19,9 +19,9 @@
 .weProvide {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  padding-top: 11rem;
 
+  padding-top: 11rem;
+  padding-bottom: 4rem;
   .weLeft {
     width: 65%;
     display: flex;
@@ -31,7 +31,44 @@
 
   .weRight {
     width: 35%;
+    display: flex;
+    
   }
+}
+
+
+
+
+.WeProvideWrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+
+
+  .weProvideRow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .weProvideRow2{
+display: flex;
+flex-direction: row;
+justify-content: end;
+gap: 4rem;
+  }
+}
+
+
+
+.weBtn:hover{
+  background: #FFFFFF99 ;
+h2{
+  color:  #041034;
+}
+
 }
 
 .weBtn {
@@ -40,7 +77,7 @@
     rgb(33, 0, 22) -36.33%,
     rgb(135, 0, 90) 132.19%
   );
-  padding: 0.2rem 0rem;
+  padding: 0.1rem 0rem;
   text-align: center;
   border-radius: 0rem 0rem 1rem 1rem;
 
@@ -54,48 +91,90 @@
 }
 
 .repetCard {
-  height: 30%;
-  width: 32%;
-  margin-left: 5rem;
+  height: 314px;
+  width: 34.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(120.88deg, #3504b8 -18.33%, #07054c 94.19%);
+
+  border-radius: 1rem;
 }
 
 .card {
-  height: 314px;
+  height: 100%;
   width: 100%;
-  background: linear-gradient(120.88deg, #3504b8 -18.33%, #07054c 94.19%);
-
+ position: relative;
   text-align: center;
   border-radius: 1rem 1rem 0rem 0rem;
 
-  img {
-    padding-top: 4rem;
-  }
-}
+ .weImgWrap{
+  height: fit-content;
+  display: inline-block;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-15%);
+  
 
+  img{
+    width: 100%;
+    height: auto;
+    
+  }
+ }
+}
 .wrap2 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-left: 0rem;
 
   justify-content: space-evenly;
 }
 
 .weText1 {
-  padding-top: 15rem;
+
 
   h2 {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     font-size: 3rem;
+    background: linear-gradient(90deg, #041034 0%, #0C2F9A 100%);
+
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent
   }
 }
 
+
+
+.weImgWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+ 
+}
+
+
+
 .manImg {
+  width: fit-content;
+  padding-left: 3rem;
+  margin-top: 3rem;
+ 
   img {
     width: 100%;
     height: auto;
-    text-align: center;
+
+    filter: drop-shadow(16px 23px 10px #00000040);
+   
+  
+
+
+
   }
 }
 
@@ -105,26 +184,38 @@
   width: 100%;
   background: #e1deff;
   position: relative;
+  height:100vh;
 }
 
 .rowFeed {
   display: flex;
   flex-direction: row;
+  justify-content: end;
+  align-items: start;
+  padding-top: 10rem;
+  height: 100%;
+
 
   .leftFeed {
     width: 50%;
-
-    padding-bottom: 13rem;
+   
+    display: flex;
+    flex-direction: column;
+ 
   }
 
   .rightFeed {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+
+   
   }
 }
 
 .Feedtext1 {
   padding-left: 17rem;
-  padding-top: 7rem;
+ 
 
   h2 {
     font-family: "Philosopher", sans-serif;
@@ -140,13 +231,13 @@
   background: linear-gradient(111.23deg, #87005a 26.84%, #000000 118.9%);
   border-radius: 2.5rem 2.5rem 0rem 2.5rem;
 
-  box-shadow: -10px 3px 11px 0px #0000004f;
 
-  box-shadow: -23px 8px 15px 0px #0000002e;
+box-shadow: 0px 2px 5px -1px rgba(135, 0, 90, 0.25);
 
-  box-shadow: -42px 14px 17px 0px #0000000d;
 
-  box-shadow: -65px 22px 19px 0px #00000003;
+
+
+
 
   .Feedcreate {
     width: 42%;
@@ -202,7 +293,7 @@
 
 .Employers {
   position: absolute;
-  top: 43%;
+  top: 40%;
   left: 33.5rem;
 
   img {
@@ -213,7 +304,7 @@
 
 .seebtn {
   position: absolute;
-  top: 77%;
+  top: 63%;
   left: 15%;
 
   button {
@@ -227,6 +318,24 @@
   }
 }
 
+.seebtn2{
+  padding-top: 5rem;
+  padding-left: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button{
+    background-color: #fbc02d;
+  border: none;
+  padding: 0.7rem 1.9rem;
+  border-radius: 0.688rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+
+  }
+}
+
+
 .row {
   padding-left: 2rem;
   display: flex;
@@ -234,13 +343,7 @@
   width: 100%;
 }
 
-.row {
-  padding: 0.5rem;
-  padding-left: 2rem;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
+
 
 .ReviewsLeft {
   width: 50%;
@@ -265,13 +368,22 @@
 .StudentCard {
   border-radius: 0rem 2.5rem 2.5rem 2.5rem;
 
+
+
+
+
+
+/* Frame 251 */
+
+
+
+
+box-shadow: -65px 22px 19px rgba(0, 0, 0, 0.01), -42px 14px 17px rgba(0, 0, 0, 0.05), -23px 8px 15px rgba(0, 0, 0, 0.18), -10px 3px 11px rgba(0, 0, 0, 0.31), -3px 1px 6px rgba(0, 0, 0, 0.35);
+
+
   width: 20%;
   background: linear-gradient(236.39deg, #87005a 5.15%, #000000 101.43%);
-  box-shadow: -3px 1px 6px 0px #00000059;
-  box-shadow: -10px 3px 11px 0px #0000004f;
-  box-shadow: -23px 8px 15px 0px #0000002e;
-  box-shadow: -42px 14px 17px 0px #0000000d;
-  box-shadow: -65px 22px 19px 0px #00000003;
+
   border-radius: 0rem, 2.5rem, 2.5rem, 2.5rem;
   position: absolute;
   top: 15rem;

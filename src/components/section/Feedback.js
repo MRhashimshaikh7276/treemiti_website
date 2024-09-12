@@ -18,21 +18,27 @@ function Feedback() {
             </div>
 
             <div className={Styles.Feedcard}>
-              <div className={Styles.Feedcreate}>
-                <img src={creactive} alt="dds" />
+              <div style={{ display: "flex", flexDirection: "column",gap:"1.5rem" }}>
+              <div style={{ display: "flex", flexDirection: "column",gap:"1rem" }}>
+                <div className={Styles.Feedcreate}>
+                  <img src={creactive} alt="dds" />
+                </div>
+                <div className={Styles.Feedtext2}>
+                  <p>
+                    We always find talented professionals from <br />
+                    Treemiti Informatics. We consider Treemiti as our <br />
+                    training partner for latest technologies in our field
+                  </p>
+                </div>
               </div>
-              <div className={Styles.Feedtext2}>
-                <p>
-                  We always find talented professionals from <br />
-                  Treemiti Informatics. We consider Treemiti as our <br />{" "}
-                  training partner for latest technologies in our field{" "}
-                </p>
+              <div style={{ display: "flex", flexDirection: "column",gap:".5rem" }}>
+                <div className={Styles.Feedtext3}>
+                  <h3>Mr.Ajay Deore</h3>
+                </div>
+                <div className={Styles.Feedtext4}>
+                  <h4>Director, Creative Web Solution</h4>
+                </div>
               </div>
-              <div className={Styles.Feedtext3}>
-                <h3>Mr.Ajay Deore</h3>
-              </div>
-              <div className={Styles.Feedtext4}>
-                <h4>Director, Creative Web Solution</h4>
               </div>
             </div>
 
@@ -81,10 +87,16 @@ function Feedback() {
                       course material. I am <br /> now confident, competent and
                       skillfulv <br /> graphic designer, web designer, ui/ux
                     </p>
-                  </div>
+                  </div>                 
                 </div>
+              
+
               </div>
+              
             </div>
+            <div className={Styles.seebtn2}>
+                  <button>See More</button>
+                  </div>
           </div>
         </div>
       </div>

@@ -106,6 +106,9 @@
 
     .RightDesign {
       width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
@@ -239,7 +242,7 @@
 .BlogImgWrap {
   padding-top: 9rem;
   text-align: center;
-  padding-left: 11rem;
+
 }
 
 /* Devlopments Curses */

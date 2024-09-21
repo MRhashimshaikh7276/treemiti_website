@@ -1,18 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 .MainCurses {
   width: 100%;
   height: 44.5vh;
   background-image: url(".././media//Untitlel\ 0\ 1.png");
 }
 
-
-.curseswidth{
+.curseswidth {
   width: 100%;
 }
 .cursesWrap {
   width: 90%;
   margin: auto;
   background-color: #ffff;
-  
+
   padding-top: 6rem;
   padding-bottom: 7rem;
 
@@ -55,7 +56,6 @@
   height: 659px;
   border-radius: 0.938rem;
   margin-left: 1.5rem;
-
 }
 
 /* Right Wrapper */
@@ -76,9 +76,10 @@
     text-align: center;
     padding: 1rem;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
-    box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 37, 124, 0.03), -7px -10px 12px rgba(33, 37, 124, 0.04), -2px -2px 7px rgba(33, 37, 124, 0.05);
-
-
+    box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01),
+      -16px -22px 16px rgba(33, 37, 124, 0.03),
+      -7px -10px 12px rgba(33, 37, 124, 0.04),
+      -2px -2px 7px rgba(33, 37, 124, 0.05);
 
     h3 {
       font-family: mona;
@@ -96,12 +97,10 @@
     padding: 1rem;
     border-radius: 0rem 0.5rem 0.5rem 0rem;
 
-box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 37, 124, 0.03), -7px -10px 12px rgba(33, 37, 124, 0.04), -2px -2px 7px rgba(33, 37, 124, 0.05);
-
-
-
-
-
+    box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01),
+      -16px -22px 16px rgba(33, 37, 124, 0.03),
+      -7px -10px 12px rgba(33, 37, 124, 0.04),
+      -2px -2px 7px rgba(33, 37, 124, 0.05);
 
     h3 {
       font-family: mona;
@@ -113,165 +112,145 @@ box-shadow: -28px -39px 19px rgba(33, 37, 124, 0.01), -16px -22px 16px rgba(33, 
   }
 }
 
+.SyllebusMain {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 
-
-.SyllebusMain{
-    padding-top: 2rem;
+  .Wrap {
     width: 100%;
+    background-color: #d2e0fb;
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    flex-direction: row;
+    border-radius: 0.938rem;
 
-    .Wrap{
-        width: 100%;
-        background-color: #D2E0FB;
+    .left {
+      width: 23%;
+      border-radius: 0.938rem;
+      div {
+        padding-top: 1.7rem;
+        padding-left: 1.5rem;
+      }
+      img {
+        border-radius: 0.938rem;
+      }
+    }
+
+    .right {
+      width: 77%;
+      border-radius: 0.938rem;
+      .row {
         display: flex;
         flex-direction: row;
-        border-radius: 0.938rem;
-   
-        .left{
-            width: 23%;
-            border-radius: 0.938rem;
-            div{
-              padding-top: 1.7rem;
-              padding-left: 1.5rem;
-            }
-            img{
-                border-radius: 0.938rem;
-            }
-         
+        gap: 2rem;
+        div {
+          background-color: #ffffff;
+          padding: 0.5rem 0.8rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 0.967rem;
         }
-
-        .right{
-            width: 77%;
-            border-radius: 0.938rem;
-            .row{
-                display: flex;
-                flex-direction: row;
-                gap: 2rem;
-                div{
-                    background-color: #FFFFFF;
-                    padding: 0.5rem 0.8rem;
-                    font-size: 1rem;
-                    font-weight: 400;
-                    line-height: 0.967rem;
-
-                }
-            }
-        }
-
+      }
     }
+  }
 }
 
-.text1{
-    h3{
-        font-family: mona;
-        font-size: 1.5rem;
-        font-weight: 600;
-        line-height: 1.451rem;
-        color:#000000;
-        
-    }
+.text1 {
+  h3 {
+    font-family: mona;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.451rem;
+    color: #000000;
+  }
 }
 
-.text2{
-    p{
-        text-wrap: wrap;
-        font-family: mona;
-        font-weight: 400;
-        font-size: 1.25rem;
-        line-height: 1.925rem;
-        
-    }
+.text2 {
+  p {
+    text-wrap: wrap;
+    font-family: mona;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.925rem;
+  }
 }
 
-
-.btnRow{
+.btnRow {
   padding: 2rem 0rem;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  .btn1{
-    padding: .5rem 1rem;
+  .btn1 {
+    padding: 0.5rem 1rem;
     border: none;
     font-size: 1.25rem;
     font-family: mona;
     font-weight: 500;
     border-radius: 0.5rem;
-    background-color:  #21257C;
+    background-color: #21257c;
     color: #ffff;
-
-
   }
-  .btn2{
-    padding: .5rem 1rem;
+  .btn2 {
+    padding: 0.5rem 1rem;
     border: none;
     font-size: 1.25rem;
     font-family: mona;
     font-weight: 500;
     border-radius: 0.5rem;
-
   }
 }
 
-.allWrap{
+.allWrap {
   padding-top: 2rem;
 
   width: 96%;
- display: flex;
- gap: 1.1rem;
- flex-direction: column;
- margin-left: 0.6rem;
-
+  display: flex;
+  gap: 1.1rem;
+  flex-direction: column;
+  margin-left: 0.6rem;
 }
-
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-
 /*  About Design Courses */
 
-.designMain{
+.designMain {
   width: 100%;
-background-image: url("../media/Frame\ 262.png");
-background-repeat: no-repeat;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-
+  background-image: url("../media/Frame\ 262.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.designWrap{
-
+.designWrap {
   width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
 
-  
-
-  .designText1{
-text-align: center;
-    h2{
+  .designText1 {
+    text-align: center;
+    h2 {
       font-family: "Philosopher", sans-serif;
       font-size: 3rem;
       font-weight: 700;
-      color: #FFFFFF;
-
+      color: #ffffff;
     }
   }
 
-
-  .designText2{
+  .designText2 {
     text-align: center;
     padding: 0rem 4rem;
-    p{
-      color: #FFFFFF;
+    p {
+      color: #ffffff;
       font-family: "Lato", sans-serif;
       font-size: 2rem;
       line-height: 3rem;
@@ -279,22 +258,98 @@ text-align: center;
     }
   }
 
-
-
-  .designText3{
-   
+  .designText3 {
     width: 100%;
-position: relative;
-margin-left: 100%;
- transform: translateX(-45%);
+    position: relative;
+    margin-left: 100%;
+    transform: translateX(-45%);
 
-  
-    img{
-     width: 100%;
-     height: auto;
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
 
+/* cursesHover */
 
+.cursesHover {
+  width: 100%;
+  height: 375px;
+  background-color: #ffffff;
 
+  .HoverWrap {
+    padding-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 408px;
+  
+   
+    margin: auto;
+
+    .first {
+      width: 25%;
+
+      .Hovercolum1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 371px;
+        height: fit-content;
+
+        .hoverText1{
+          font-family:  Helvetica, sans-serif;
+          font-size: 1.25rem;
+          font-weight: 400;
+        }
+
+        .hoverText2 {
+          font-weight: 700;
+          font-size: 2rem;
+          color: #000000;
+          font-family: Helvetica, sans-serif;
+        }
+        .hoverText3 {
+          font-weight: 500;
+          font-size: 1.125rem;
+          font-style: italic;
+        color: #212121;
+
+        }
+      }
+    }
+    .second {
+      width: 25%;
+    }
+
+    .third {
+      width: 25%;
+    }
+
+    .four {
+      width: 25%;
+    }
+  }
+}
+
+.Hovercolum {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  width: 312px;
+ 
+
+  div {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Lato", sans-serif;
+  }
+
+  li {
+    font-size: 1.125rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #282828;
+  }
+}

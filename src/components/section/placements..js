@@ -56,7 +56,7 @@ function Placements() {
                         {activedata.map((deta,index)=>(
                             <div className={Styles.placeCard}>
                                 <div className={Styles.placeImg}>
-                                    <img src={deta.stduentimg} />
+                                    <img src={deta.stduentimg} alt='gf'/>
                                 </div>
                                 <div className={Styles.placeCardText}>
                                     <span className={Styles.text1}>{deta.course}</span>

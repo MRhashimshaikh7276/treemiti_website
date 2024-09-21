@@ -15,7 +15,7 @@ const Route = createBrowserRouter([
  path: "/", element:(<><Navbar/><Index/></>)
     },
     {
-        path: "/Curses", element:(<><Navbar/><Curses/></>)
+        path: "/Courses", element:(<><Navbar/><Curses/></>)
     },
     {
         path:"/Guidance", element:(<><Navbar/><Guidance/></>)

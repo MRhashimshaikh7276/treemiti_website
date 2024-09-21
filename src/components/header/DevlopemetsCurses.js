@@ -1,5 +1,5 @@
 import Styles from "../../styles/header.module.css";
-import storeProduct from "../../media/pngwing.com (7).png";
+import storeProduct from "../../media/pngwing.com (26).png";
 
 import FontDev from '../../media/FontDev.png';
 import BAckEndDev from '../../media/BackEnd Dev.png';

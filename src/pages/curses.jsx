@@ -4,6 +4,7 @@ import CursesHeader from '../components/cursespage/cursesHeader';
 import CursesSection from '../components/cursespage/cursesSection';
 
 
+
 function Curses() {
     
 
@@ -19,6 +20,7 @@ function Curses() {
        <main style={main}>
          <CursesHeader/>
          <CursesSection/>
+         
       
        </main>
 

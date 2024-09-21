@@ -36,7 +36,7 @@ export default function Header() {
       <ActiveHeaderComponent /> 
       <div style={absulote}>
         <ul className={Styles.row}>
-          <li onClick={() => handleClick("Philosophy")}>Our Philosophy</li>
+          <li onClick={() => handleClick("Philosophy") }>Our Philosophy</li>
           <li onClick={() => handleClick("Design")}>Design Courses</li>
           <li onClick={() => handleClick("Development")}>Development Courses</li>
           <li onClick={() => handleClick("Busniess")}>Business Courses</li>

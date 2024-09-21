@@ -1,45 +1,48 @@
 
 // Designers placement data
 
+
+import aniket from '.././media/aniket-patil 1.png';
+
 export const Designersplacement = [{
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 {
     course:'Designers',
     name:'Fardin sayyad',
-    stduentimg:"http://localhost:3000/static/media/aniket-patil%201.bb02b1585b56a826a295.png"
+    stduentimg:aniket
 },
 ]
 

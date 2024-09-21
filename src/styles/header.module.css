@@ -46,11 +46,15 @@
 
 .right {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .text1 {
-  padding-top: 9rem;
-  padding-left: 4rem;
+
+
 
   h1 {
     margin: 0;
@@ -62,7 +66,7 @@
 }
 
 .text2 {
-  padding-left: 1rem;
+
 
   p {
     font-size: 1.5rem;
@@ -73,13 +77,14 @@
 }
 
 .text3 {
-  padding-left: 1rem;
+  width: 59%;
 
   P {
     font-size: 1.5rem;
     font-weight: 400;
     font-family: "Lato", sans-serif;
     color: #ffffff;
+    line-height: 2.04rem;
   }
 }
 
@@ -242,7 +247,6 @@
 .BlogImgWrap {
   padding-top: 9rem;
   text-align: center;
-
 }
 
 /* Devlopments Curses */
@@ -270,8 +274,6 @@
       width: 40%;
     }
   }
-
-
 }
 
 /*Business Curses */

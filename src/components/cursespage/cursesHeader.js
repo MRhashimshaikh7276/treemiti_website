@@ -7,7 +7,7 @@ function CursesHeader(){
     return(
         <>
         <header className={cursesStyles.MainCurses}>
-          
+      
         </header>
         </>
     )

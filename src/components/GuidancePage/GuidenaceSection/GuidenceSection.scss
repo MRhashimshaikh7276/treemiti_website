@@ -1,0 +1,66 @@
+
+
+.GuidenceSec{
+    width: 95%;
+    margin: auto;
+}
+
+
+.rowGuid{
+margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+   
+
+    .leftGuid{
+width: 50%;
+height: 237px;
+border-radius: 0.938rem;
+background-color:  #E1DEFF;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+.carrerGuid{
+    width: 100%;
+   
+
+}
+
+.DevlopGuid{
+    width: 100%;
+}
+
+
+
+   
+
+    }
+
+    .rightGuid{
+        width: 50%;
+        height: 237px;
+        border-radius: 0.938rem;
+        background-color: #CED5D9;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 3rem;
+
+    }
+}
+
+.GuidText1{
+width: 100%;
+
+        h3{
+            font-family: "Philosopher", sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+}

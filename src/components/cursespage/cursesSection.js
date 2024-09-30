@@ -4,8 +4,22 @@ import ArrowMap from "../../media/streamline_arrow-roadmap.png";
 import bulp from "../../media/bulp.png";
 import CursesSyllebus from "../cursespage/cursesSyllebus";
 import AboutDesignCourses from "../cursespage/aboutDesign";
+import { useState } from "react";
+
+
 
 function CursesSection() {
+
+  const [activeComponent, setActiveComponent]= useState(()=> CursesSyllebus);
+
+const cursesComponets = {
+  JobOriented:CursesSyllebus,
+  carrerOrinted:"",
+
+}
+
+
+
   return (
     <>
       <section className={Styles.curseswidth}>

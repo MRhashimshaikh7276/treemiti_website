@@ -1,15 +1,15 @@
-import Styles from "../../styles/section.module.css";
+import './weProvide.scss';
 
 function WeProvide({ img, text }) {
   return (
     <>
-      <div className={Styles.repetCard}>
-        <div className={Styles.card}>
-          <div className={Styles.weImgWrap}>
+      <div className="repetCard">
+        <div className="card">
+          <div className="weImgWrap">
             <img src={img} alt="dsjss" />
           </div>
         </div>
-        <div className={Styles.weBtn}>
+        <div className="weBtn">
           <h2>{text}</h2>
         </div>
       </div>

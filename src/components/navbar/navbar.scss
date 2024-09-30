@@ -6,6 +6,16 @@
     width: 100%;
     position: relative;
 
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        font-family: "Lato", sans-serif;
+        justify-content: space-between;
+      
+        
+    }
+
 }
 
 .logo{
@@ -24,14 +34,6 @@
 }
 
 
-.row{
-    display: flex;
-    flex-direction: row;
-    font-family: "Lato", sans-serif;
-    justify-content: space-between;
-    align-items: center;
-    
-}
 .navbarli{
 
     padding-right: 10rem;

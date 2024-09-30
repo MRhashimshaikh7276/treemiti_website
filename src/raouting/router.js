@@ -1,37 +1,69 @@
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Navbar from "../components/navbar";
+import Navbar from "../components/navbar/navbar";
 import Index from "../pages";
 import Curses from "../pages/curses";
 import Guidance from "../pages/Guidance";
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
-
+import Footer from "../components/Footer/Footer";
 
 function Raouting() {
+  const Route = createBrowserRouter([
+    {
+      path: "/",
+      element: (
+        <>
+          <Navbar />
+          <Index />
+          <Footer />
+        </>
+      ),
+    },
 
-const Route = createBrowserRouter([
     {
- path: "/", element:(<><Navbar/><Index/></>)
+      path: "/Courses",
+      element: (
+        <>
+          <Navbar />
+          <Curses />
+          <Footer />
+        </>
+      ),
     },
-    {
-        path: "/Courses", element:(<><Navbar/><Curses/></>)
-    },
-    {
-        path:"/Guidance", element:(<><Navbar/><Guidance/></>)
-    },
-    {
-        path:"/AboutUs", element:(<><Navbar/><AboutUs/></>)
-    },
-    {
-        path:"/ContactUs", element:(<><Navbar/><ContactUs/></>)
-    }
-])
 
+    {
+      path: "/Guidance",
+      element: (
+        <>
+          <Navbar />
+          <Guidance />
+          {/* <Footer /> */}
+        </>
+      ),
+    },
 
-    return(
-        <RouterProvider router={Route}/>
-    )
+    {
+      path: "/AboutUs",
+      element: (
+        <>
+          <Navbar />
+          <AboutUs />
+        </>
+      ),
+    },
+
+    {
+      path: "/ContactUs",
+      element: (
+        <>
+          <Navbar />
+          <ContactUs />
+        </>
+      ),
+    },
+  ]);
+
+  return <RouterProvider router={Route} />;
 }
 
 export default Raouting;

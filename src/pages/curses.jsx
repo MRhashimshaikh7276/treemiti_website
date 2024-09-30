@@ -5,12 +5,12 @@ import CursesSection from '../components/cursespage/cursesSection';
 
 
 
+
 function Curses() {
     
 
     let main ={
         width:"1920px",
-        position:"absolute",
         overflowX:"hidden"
     }
 
@@ -20,6 +20,7 @@ function Curses() {
        <main style={main}>
          <CursesHeader/>
          <CursesSection/>
+      
          
       
        </main>

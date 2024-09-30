@@ -1,0 +1,184 @@
+.placemenets {
+    width: 100%;
+    padding-bottom: 9rem;
+  }
+  
+  .Placeleft {
+    width: 32%;
+  }
+  
+  .placeright {
+    width: 67%;
+  }
+
+
+  .PlacementsRow{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .placeBox {
+    margin-top: 12rem;
+    border-radius: 0.5rem;
+    width: 69%;
+    margin-left: 7rem;
+    background: linear-gradient(
+      120.88deg,
+      rgba(53, 4, 184, 0.81) -18.33%,
+      rgba(7, 5, 76, 0.81) 94.19%
+    );
+    padding-bottom: 4rem;
+  
+    .placeText1 {
+      padding-top: 4rem;
+      padding-left: 4rem;
+  
+      h2 {
+        font-size: 3rem;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Philosopher", sans-serif;
+        line-height: 3.36rem;
+      }
+    }
+  
+    .placeText2 {
+      padding-top: 2rem;
+      padding-left: 4rem;
+      width: 90%;
+  
+      p {
+        font-family: "Lato", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        color: #ffffff;
+      }
+    }
+  }
+  
+  .placeBtn {
+    padding-left: 8.2rem;
+    padding-top: 3rem;
+    width: 62%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    .place1 {
+      border-radius: 0.375rem;
+      padding: 0.8rem 2.1rem;
+      border: none;
+      background: linear-gradient(120.99deg, #3504b8 0%, #07054c 100%);
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.209rem;
+      font-family: "mona";
+      color: #ffffff;
+    }
+  
+    .place2 {
+      border-radius: 0.375rem;
+      padding: 0.8rem 2.1rem;
+      border: none;
+      background: rgba(210, 224, 251, 1);
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.209rem;
+      font-family: "mona";
+    }
+  }
+  
+  .bar {
+    margin-left: 2rem;
+    margin-top: 8rem;
+    border-radius: 0.375rem;
+    width: 86.5%;
+    background: linear-gradient(131.52deg, #3504b8 -18.35%, #07054c 143.45%);
+    padding: 0.7rem 0rem;
+  
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  
+      li {
+        color: rgba(255, 255, 255, 1);
+  
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.934rem;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .placeRepet {
+    width: 86.5%;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5rem;
+  
+    .placeCard {
+      border-radius: 0.5rem;
+      width: 21%;
+      background: rgba(225, 222, 255, 1);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  
+      box-shadow: 21px -46px 20px rgba(0, 0, 0, 0.01),
+        12px -26px 17px rgba(0, 0, 0, 0.05), 5px -11px 13px rgba(0, 0, 0, 0.09),
+        1px -3px 7px rgba(0, 0, 0, 0.1);
+  
+      .placeImg {
+        padding-top: 0.7rem;
+        width: 90%;
+  
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: -3px;
+        }
+      }
+  
+      .placeCardText {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(
+          64.28deg,
+          rgba(88, 16, 64, 0.84) -36.33%,
+          rgba(11, 30, 79, 0.84) 132.19%
+        );
+        width: 100%;
+        align-items: center;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+  
+        .text1 {
+          padding-top: 0.8rem;
+          color: #ffffff;
+          font-size: 1.125rem;
+          font-weight: 400;
+          line-height: 1.35rem;
+          font-family: "Lato", sans-serif;
+          text-transform: capitalize;
+        }
+  
+        .text2 {
+          padding-top: 0.7rem;
+          color: #ffffff;
+          font-size: 1.5rem;
+          font-weight: 500;
+          line-height: 1.35rem;
+          font-family: "Lato", sans-serif;
+          padding-bottom: 1rem;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }

@@ -1,0 +1,69 @@
+.weBtn:hover{
+    background: #FFFFFF99 ;
+  h2{
+    color:  #041034;
+  }
+  
+  }
+  
+  .weBtn {
+    background: linear-gradient(
+      64.28deg,
+      rgb(33, 0, 22) -36.33%,
+      rgb(135, 0, 90) 132.19%
+    );
+    padding: 0.1rem 0rem;
+    text-align: center;
+    border-radius: 0rem 0rem 1rem 1rem;
+  
+    h2 {
+      color: #ffffff;
+      font-family: "Philosopher", sans-serif;
+      font-weight: 700;
+      font-size: 2.25rem;
+      margin: 0.9rem;
+    }
+  }
+  
+  .repetCard {
+    height: 314px;
+    width: 34.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(120.88deg, #3504b8 -18.33%, #07054c 94.19%);
+  
+    border-radius: 1rem;
+  }
+  
+  .card {
+    height: 100%;
+    width: 100%;
+   position: relative;
+    text-align: center;
+    border-radius: 1rem 1rem 0rem 0rem;
+  
+   .weImgWrap{
+    height: fit-content;
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%);
+    
+  
+    img{
+      width: 100%;
+      height: auto;
+      
+    }
+   }
+  }
+  
+  
+  .weImgWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }

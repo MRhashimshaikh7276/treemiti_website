@@ -10,7 +10,13 @@ import PHPFullStackWev from ".././media/PHPFullStackDev.png";
 
 
 // bussiness courses
+
+
+
+
 import DitigalMarketing from '.././media/ceartificateDitgitalMarketing.png';
+import AdvanceGraphicDisign  from '.././media/advanceGraphicDesing.png';
+import AdvanceUIUXWebDesign from '.././media/advanceUIUXWebDesing.png';
 
 
 
@@ -124,8 +130,6 @@ p:"Digital marketing encompasses strategies to promote products or services onli
 //   career oriented design courses;
 
 
-import AdvanceGraphicDisign  from '.././media/advanceGraphicDesing.png';
-
 const careerOrientedDesign = [
   {
     coursesImg:AdvanceGraphicDisign,
@@ -136,11 +140,11 @@ const careerOrientedDesign = [
   },
 
   {
-    coursesImg:AdvanceGraphicDisign,
-    HeadingText:"Advance Graphics Designing",
+    coursesImg:AdvanceUIUXWebDesign,
+    HeadingText:"Advance UI / UX Web designing",
     day:"Morning, Evening, Weekdays & Saturday",
     month:"Duration : 12 Months",
-    p:"Mastering Digital Visuals: Our Digital Graphic course delves into the world of digital art, equipping you with skills to create captivating visuals. Explore digital illustration, photo manipulation, and design principles. Unleash your creativity and bring your ideas to life in the digital realm.  "
+    p:"Crafting seamless experiences with UI/UX design combines aesthetics and functionality. Create intuitive interfaces that delight users and enhance usability. Using HTML, CSS, and JavaScript to build responsive layouts, design user interfaces, and enhance user experience"
   },
 ]
 

@@ -1,0 +1,158 @@
+.DesignHeader {
+    background-image: url("../../../media//—Pngtree—a\ red\ umbrella\ standing\ out_15597698\ 1.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 80vh;
+  
+    .row {
+      display: flex;
+      flex-direction: row;
+      height: 80%;
+  
+      .LeftDesign {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+  
+      .RightDesign {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  
+  .CardWrap {
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+  
+    .Card {
+      width: 30%;
+      background: linear-gradient(
+        247.06deg,
+        rgba(82, 82, 82, 0.54) 18.24%,
+        rgba(63, 63, 63, 0.4482) 31.77%,
+        rgba(63, 63, 63, 0.54) 65.62%
+      );
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      border-radius: 0.75rem;
+      border: 1px solid;
+      border-image-source: linear-gradient(
+        79.25deg,
+        rgba(152, 193, 255, 0.52) 0.45%,
+        #ff4c4c 7.47%,
+        #d57688 14.53%,
+        #81caff 35.01%,
+        #90bae9 66.08%,
+        #d6e8ff 98.56%
+      );
+  
+      padding-bottom: 1.5rem;
+      background: linear-gradient(
+        247.06deg,
+        rgba(82, 82, 82, 0.54) 18.24%,
+        rgba(63, 63, 63, 0.4482) 31.77%,
+        rgba(63, 63, 63, 0.54) 65.62%
+      );
+      backdrop-filter: blur(3.9px);
+  
+      .cardcont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+  
+        img {
+          padding-top: 1.5rem;
+        }
+  
+        h3 {
+          font-family: "mona";
+          font-weight: 700;
+          font-size: 1.5rem;
+          line-height: 1.451rem;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  
+  .CardWrap2 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+  
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+  
+    .Card {
+      width: 30%;
+      background: linear-gradient(
+        247.06deg,
+        rgba(82, 82, 82, 0.54) 18.24%,
+        rgba(63, 63, 63, 0.4482) 31.77%,
+        rgba(63, 63, 63, 0.54) 65.62%
+      );
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+      border-radius: 0.75rem;
+      border: 1px solid;
+      border-image-source: linear-gradient(
+        79.25deg,
+        rgba(152, 193, 255, 0.52) 0.45%,
+        #ff4c4c 7.47%,
+        #d57688 14.53%,
+        #81caff 35.01%,
+        #90bae9 66.08%,
+        #d6e8ff 98.56%
+      );
+  
+      padding-bottom: 1.5rem;
+      background: linear-gradient(
+        247.06deg,
+        rgba(82, 82, 82, 0.54) 18.24%,
+        rgba(63, 63, 63, 0.4482) 31.77%,
+        rgba(63, 63, 63, 0.54) 65.62%
+      );
+      backdrop-filter: blur(3.9px);
+  
+      .cardcont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+  
+        img {
+          padding-top: 1.5rem;
+        }
+  
+        h3 {
+          font-family: "mona";
+          font-weight: 700;
+          font-size: 1.5rem;
+          line-height: 1.451rem;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  
+  .BlogImgWrap {
+    padding-top: 9rem;
+    text-align: center;
+  }
+  

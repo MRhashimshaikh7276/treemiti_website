@@ -1,22 +1,21 @@
-import Styles from "../styles/section.module.css";
+import Styles from "../../styles/section.module.css";
 
 // components//
-import WeProvide from "./section/weProvide";
-import Feedback from "./section/Feedback";
+import WeProvide from "./weProvide/weProvide";
+import Feedback from "./Feedback/Feedback";
+
+import Placements from "./Placements/placements.";
+import WhyUs from "./WhyUs/WhyUs";
+import Blog from "./blog/blog";
 
 // images //
-import pen from "../media/graphic-design-pen 1.png";
-import dev from "../media/OBJECTS.svg";
-import bussines from "../media/bussiness.png";
-import DevOps from "../media/clud&Ops.png";
-import man from "../media/3d-rendering-cartoon-like-boy 1.png";
-import Placements from "./section/placements.";
-import WhyUs from "./section/WhyUs";
-import Blog from "./section/blog";
+import pen from "../../media/graphic-design-pen 1.png";
+import dev from "../../media/OBJECTS.svg";
+import bussines from "../../media/bussiness.png";
+import DevOps from "../../media/clud&Ops.png";
+import man from "../../media/3d-rendering-cartoon-like-boy 1.png";
 
-import Philosfer from "../components/header/PhilosferHeader";
-import Design from "../components/header/DesignHeader";
-import Devlopment from "../components/header/DevlopemetsCurses";
+
 
 function Section() {
   let section = {

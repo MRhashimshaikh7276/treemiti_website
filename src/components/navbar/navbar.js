@@ -1,11 +1,12 @@
-import styles from "../styles/navbar.module.css";
-import treemiti from "../media/Logo-Treemiti 1.png";
+
+import './navbar.scss';
+import treemiti from "../../media/Logo-Treemiti 1.png";
 import { NavLink, Outlet } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
-import CursesHover from "./cursespage/cursesHover";
+import CursesHover from "../cursespage/cursesHover";
 
 function Navbar() {
   const [isActive, setIsActive] = useState(true);
@@ -16,15 +17,15 @@ function Navbar() {
 
   return (
     <>
-      <nav className={styles.navbar}>
-        <div className={styles.row}>
-          <div className={styles.logo}>
+      <nav className="navbar">
+        <div className="row">
+          <div className="logo">
             <div>
               <img src={treemiti} alt="Treemiti Logo" />
             </div>
           </div>
-          <div className={styles.navbarli}>
-            <ul className={styles.row2}>
+          <div className="navbarli">
+            <ul className="row2">
               <NavLink to={"/Courses"} style={{ textDecoration: "none", }}>
                 <li>
                   Courses

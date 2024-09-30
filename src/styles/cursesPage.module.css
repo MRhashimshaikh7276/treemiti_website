@@ -222,11 +222,13 @@
   width: 100%;
   background-image: url("../media/Frame\ 262.png");
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 91.8vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  
+ 
 }
 
 .designWrap {
